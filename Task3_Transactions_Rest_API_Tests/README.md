@@ -7,8 +7,8 @@ This repository contains automated tests for the GoodBudget transaction API endp
 1. Clone the Repository
 
 ```
-git clone https://github.com/yourusername/goodbudget-api-tests.git
-cd goodbudget-api-tests
+git clone https://github.com/Deepshikha1611/Deepshikha-Singh.git
+cd Task3_Transactions_Rest_API_Tests
 ```
 
 2. Create a Virtual Environment
