@@ -1,0 +1,60 @@
+name: CI – Web UI and API Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  # --------- API TESTS (Task 3) ---------
+  api-tests:
+    name: Run REST API Tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Task3_Transactions_Rest_API_Tests
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Pytest
+        run: |
+          pytest --tb=short --maxfail=1
+
+  # --------- WEB UI TESTS (Task 2) ---------
+  web-ui-tests:
+    name: Run Playwright Web UI Tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Task2_goodbudget-e2e-web-tests
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Playwright Dependencies
+        run: |
+          npm ci
+          npx playwright install --with-deps
+
+      - name: Run Playwright Tests
+        run: |
+          npx playwright test
