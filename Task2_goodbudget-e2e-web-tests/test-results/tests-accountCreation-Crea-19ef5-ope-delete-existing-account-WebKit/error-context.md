@@ -1,0 +1,157 @@
+# Page snapshot
+
+```yaml
+- link "Goodbudget":
+  - /url: /home
+- list:
+  - listitem:
+    - link "Home":
+      - /url: /home
+  - listitem:
+    - link "Reports":
+      - /url: "#"
+    - list:
+      - listitem:
+        - link "Spending by Envelope":
+          - /url: /reports/spending-by-envelope
+      - listitem:
+        - link "Spending by Payee":
+          - /url: /reports/spending-by-payee
+      - listitem:
+        - link "Spending vs Budget":
+          - /url: /reports/spending-vs-budget
+      - listitem:
+        - link "Spending by Month":
+          - /url: /reports/spending-by-month
+      - listitem:
+        - link "Income vs Spending":
+          - /url: /reports/income-vs-spending
+      - listitem:
+        - link "Income by Source":
+          - /url: /reports/income-by-source
+      - listitem:
+        - link "Envelope Balances":
+          - /url: /reports/envelope-balances
+      - listitem:
+        - link "Debt Progress":
+          - /url: /reports/debt-progress
+      - listitem:
+        - link "Budget Allocation":
+          - /url: /reports/budget-allocation
+  - listitem:
+    - link "Help":
+      - /url: "#"
+    - list:
+      - listitem:
+        - link "User Guide":
+          - /url: https://goodbudget.com/help/?utm_source=home&utm_medium=symfony&utm_campaign=help-center/
+      - listitem:
+        - link "Forum Support":
+          - /url: https://forums.goodbudget.com/?utm_source=home&utm_medium=symfony&utm_campaign=forum/
+  - listitem:
+    - link "Learn":
+      - /url: "#"
+    - list:
+      - listitem:
+        - link "Courses":
+          - /url: https://goodbudget.com/the-goodbudget-way/courses/?utm_source=home&utm_medium=symfony&utm_campaign=courses/
+      - listitem:
+        - link "Articles":
+          - /url: https://goodbudget.com/the-goodbudget-way/?utm_source=home&utm_medium=symfony&utm_campaign=gbw
+      - listitem:
+        - link "Podcasts":
+          - /url: https://goodbudget.com/the-goodbudget-way/podcasts/season1/?utm_source=home&utm_medium=symfony&utm_campaign=podcast
+- list:
+  - listitem:
+    - link "My Household":
+      - /url: /household/edit
+  - listitem:
+    - link "Logout":
+      - /url: /logout
+- paragraph: Hi, singh.deepshikha16!
+- link "Upgrade to Goodbudget Premium!":
+  - /url: /subscriptions/plans
+- banner
+- banner:
+  - heading "Add / Edit Accounts" [level=1]
+- heading "Always know where your money really is." [level=2]
+- heading "Checking, Savings, Or Cash" [level=3]
+- heading "Name" [level=4]
+- heading "Current Balance" [level=4]
+- list:
+  - listitem:
+    - group:
+      - link:
+        - /url: "#"
+      - textbox: Savings
+      - textbox "0.00": "10000.00"
+- button "Add"
+- heading "Credit Cards" [level=3]
+- heading "Name" [level=4]
+- heading "Current Balance" [level=4]
+- list
+- button "Add"
+- heading "Debt" [level=3]
+- heading "Name" [level=4]
+- heading "Current Balance" [level=4]
+- list:
+  - listitem:
+    - group:
+      - link:
+        - /url: "#"
+      - textbox "Name": car loan
+      - textbox "0.00": "1000.00"
+      - text: 100.00 Monthly
+      - button "Edit"
+- button "Add"
+- heading "Helpful Tips" [level=2]
+- list:
+  - listitem:
+    - link "Track and Payoff Existing Debt":
+      - /url: https://goodbudget.com/help/tackling-debt/starting-with-debt/?utm_source=editaccounts&utm_medium=symfony&utm_campaign=starting-with-debt/
+  - listitem:
+    - link "Import Recent Banking Activity":
+      - /url: https://goodbudget.com/help/using-accounts/import/?utm_source=editaccounts&utm_medium=symfony&utm_campaign=import-transactions/
+  - listitem:
+    - link "Reconcile your Accounts":
+      - /url: https://goodbudget.com/help/using-accounts/reconcile/?utm_source=editaccounts&utm_medium=symfony&utm_campaign=how-to-reconcile/
+- heading "Your Accounts" [level=2]
+- list:
+  - listitem:
+    - paragraph:
+      - strong: Checking, Savings, Or Cash
+    - paragraph:
+      - strong: 10,000.00
+- list:
+  - listitem:
+    - paragraph:
+      - strong: Credit Cards
+    - paragraph:
+      - strong: "0.00"
+- list:
+  - listitem:
+    - paragraph:
+      - strong: "Net Total:"
+    - paragraph:
+      - strong: 10,000.00
+- list:
+  - listitem:
+    - paragraph: Debt (Off Budget)
+    - paragraph: 1,000.00
+- button "Save Changes"
+- button "Cancel"
+- contentinfo:
+  - text: © 2009-25
+  - link "Dayspring Partners":
+    - /url: http://www.dayspringpartners.com/
+  - text: "|"
+  - link "Terms":
+    - /url: https://goodbudget.com/terms-of-use/?utm_source=webappfooter&utm_medium=symfony&utm_campaign=terms-of-use/
+  - text: "|"
+  - link "Privacy":
+    - /url: https://goodbudget.com/privacy-policy/?utm_source=webappfooter&utm_medium=symfony&utm_campaign=privacy-policy/
+  - text: "|"
+  - link "Subscriptions & Refunds":
+    - /url: https://goodbudget.com/refunds-cancellations-subscriptions/?utm_source=webappfooter&utm_medium=symfony&utm_campaign=cancellations-refunds/
+  - text: .
+```

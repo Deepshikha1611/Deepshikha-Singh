@@ -1,0 +1,910 @@
+# Page snapshot
+
+```yaml
+- link "Goodbudget":
+  - /url: /home
+- link "Add Transaction":
+  - /url: "#"
+- link "Fill Envelopes":
+  - /url: /envelopes/fill
+- list:
+  - listitem:
+    - link "Home":
+      - /url: /home
+  - listitem:
+    - link "Reports":
+      - /url: "#"
+    - list:
+      - listitem:
+        - link "Spending by Envelope":
+          - /url: /reports/spending-by-envelope
+      - listitem:
+        - link "Spending by Payee":
+          - /url: /reports/spending-by-payee
+      - listitem:
+        - link "Spending vs Budget":
+          - /url: /reports/spending-vs-budget
+      - listitem:
+        - link "Spending by Month":
+          - /url: /reports/spending-by-month
+      - listitem:
+        - link "Income vs Spending":
+          - /url: /reports/income-vs-spending
+      - listitem:
+        - link "Income by Source":
+          - /url: /reports/income-by-source
+      - listitem:
+        - link "Envelope Balances":
+          - /url: /reports/envelope-balances
+      - listitem:
+        - link "Debt Progress":
+          - /url: /reports/debt-progress
+      - listitem:
+        - link "Budget Allocation":
+          - /url: /reports/budget-allocation
+  - listitem:
+    - link "Help":
+      - /url: "#"
+    - list:
+      - listitem:
+        - link "User Guide":
+          - /url: https://goodbudget.com/help/?utm_source=home&utm_medium=symfony&utm_campaign=help-center/
+      - listitem:
+        - link "Forum Support":
+          - /url: https://forums.goodbudget.com/?utm_source=home&utm_medium=symfony&utm_campaign=forum/
+  - listitem:
+    - link "Learn":
+      - /url: "#"
+    - list:
+      - listitem:
+        - link "Courses":
+          - /url: https://goodbudget.com/the-goodbudget-way/courses/?utm_source=home&utm_medium=symfony&utm_campaign=courses/
+      - listitem:
+        - link "Articles":
+          - /url: https://goodbudget.com/the-goodbudget-way/?utm_source=home&utm_medium=symfony&utm_campaign=gbw
+      - listitem:
+        - link "Podcasts":
+          - /url: https://goodbudget.com/the-goodbudget-way/podcasts/season1/?utm_source=home&utm_medium=symfony&utm_campaign=podcast
+- list:
+  - listitem:
+    - link "My Household":
+      - /url: /household/edit
+  - listitem:
+    - link "Logout":
+      - /url: /logout
+- paragraph: Hi, singh.deepshikha16!
+- link "Upgrade to Goodbudget Premium!":
+  - /url: /subscriptions/plans
+- banner
+- list:
+  - listitem:
+    - link "envelopes (5)":
+      - /url: "#"
+      - text: envelopes
+      - emphasis: (5)
+  - listitem:
+    - link "accounts (2)":
+      - /url: "#"
+      - text: accounts
+      - emphasis: (2)
+- list:
+  - listitem:
+    - list:
+      - listitem:
+        - strong:
+          - link:
+            - /url: "#"
+          - text: Total
+        - strong: 10,050.00
+    - link "Add / Edit":
+      - /url: https://goodbudget.com/envelope/edit
+    - list:
+      - listitem:
+        - paragraph:
+          - strong: Available
+        - paragraph:
+          - strong: 9,600.00
+      - listitem:
+        - paragraph:
+          - link:
+            - /url: "#"
+          - strong: Monthly
+        - paragraph:
+          - strong: "450.00"
+        - list:
+          - listitem:
+            - paragraph:
+              - link:
+                - /url: "#"
+              - strong: Spending
+            - paragraph:
+              - strong: "450.00"
+            - list:
+              - listitem:
+                - paragraph
+                - strong: Grocery
+                - text: Due on the 1st
+                - paragraph
+                - paragraph:
+                  - strong: "450.00"
+                  - emphasis: "300.00"
+              - listitem:
+                - paragraph
+                - strong: Electricity
+                - paragraph
+                - paragraph:
+                  - strong: "0.00"
+                  - emphasis: "100.00"
+              - listitem:
+                - paragraph
+                - strong: test
+                - paragraph
+                - paragraph:
+                  - strong: "0.00"
+                  - emphasis: "100.00"
+          - listitem:
+            - paragraph:
+              - link:
+                - /url: "#"
+              - strong: Debt Payment
+            - paragraph:
+              - strong: "0.00"
+            - list:
+              - listitem:
+                - paragraph
+                - strong: car loan
+                - paragraph
+                - paragraph:
+                  - strong: "0.00"
+                  - emphasis: "100.00"
+      - listitem:
+        - paragraph:
+          - link:
+            - /url: "#"
+          - strong: Annual
+        - paragraph:
+          - strong: "0.00"
+        - list:
+          - listitem:
+            - paragraph:
+              - link:
+                - /url: "#"
+              - strong: Other
+            - paragraph:
+              - strong: "0.00"
+            - list:
+              - listitem:
+                - paragraph
+                - strong: Savings
+                - paragraph
+                - paragraph:
+                  - strong: "0.00"
+                  - emphasis: "100.00"
+- heading "Hi, singh.deepshikha16!" [level=1]
+- paragraph: Welcome to Goodbudget! We're glad you're here.
+- paragraph: Loading...
+- paragraph:
+  - link "View all":
+    - /url: "#"
+  - text: "|"
+  - link "Import bank transactions":
+    - /url: /import/upload
+  - text: "|"
+  - link "Export CSV":
+    - /url: transactions/export
+- heading "Transactions" [level=2]
+- group:
+  - textbox "Search"
+  - button "Search":
+    - emphasis: Search
+  - link "advanced":
+    - /url: "#"
+- paragraph:
+  - text: Jump to
+  - link "Today":
+    - /url: "#"
+- table:
+  - rowgroup
+  - rowgroup:
+    - row "See all your scheduled transactions »":
+      - cell "See all your scheduled transactions »":
+        - link "See all your scheduled transactions »":
+          - /url: /transactions/scheduled
+    - 'row "06/17/25 Credit Test grocery expense Grocery • Savings • #465 +50.00 Click to Clear"':
+      - cell "06/17/25"
+      - cell "Credit"
+      - 'cell "Test grocery expense Grocery • Savings • #465"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - text: Savings
+        - strong: •
+        - text: "#465"
+        - link:
+          - /url: "#"
+      - cell "+50.00":
+        - strong: "+50.00"
+      - cell "Click to Clear"
+    - 'row "06/17/25 Credit Test grocery expense Grocery • DELETED: Savings21 • #465 +50.00 Click to Clear"':
+      - cell "06/17/25"
+      - cell "Credit"
+      - 'cell "Test grocery expense Grocery • DELETED: Savings21 • #465"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - deletion: "DELETED: Savings21"
+        - strong: •
+        - text: "#465"
+        - link:
+          - /url: "#"
+      - cell "+50.00":
+        - strong: "+50.00"
+      - cell "Click to Clear"
+    - 'row "06/17/25 Credit Test grocery expense Grocery • DELETED: Savings21 +100.00 Click to Clear"':
+      - cell "06/17/25"
+      - cell "Credit"
+      - 'cell "Test grocery expense Grocery • DELETED: Savings21"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - deletion: "DELETED: Savings21"
+      - cell "+100.00":
+        - strong: "+100.00"
+      - cell "Click to Clear"
+    - 'row "06/17/25 Expense Test grocery expense Grocery • DELETED: Savings21 100.00 Click to Clear"':
+      - cell "06/17/25"
+      - cell "Expense"
+      - 'cell "Test grocery expense Grocery • DELETED: Savings21"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - deletion: "DELETED: Savings21"
+      - cell "100.00":
+        - strong: "100.00"
+      - cell "Click to Clear"
+    - 'row "06/17/25 Expense Test grocery expense Grocery • DELETED: Savings21 100.00 Click to Clear"':
+      - cell "06/17/25"
+      - cell "Expense"
+      - 'cell "Test grocery expense Grocery • DELETED: Savings21"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - deletion: "DELETED: Savings21"
+      - cell "100.00":
+        - strong: "100.00"
+      - cell "Click to Clear"
+    - row "06/17/25 Account Adjustment Set car loan Balance car loan 1,000.00 Click to Clear":
+      - cell "06/17/25"
+      - cell "Account Adjustment"
+      - cell "Set car loan Balance car loan":
+        - strong: Set car loan Balance
+        - text: car loan
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - row "06/17/25 Account Adjustment Updated Savings [Available] • Savings +10,000.00 Click to Clear":
+      - cell "06/17/25"
+      - cell "Account Adjustment"
+      - cell "Updated Savings [Available] • Savings":
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - text: Savings
+      - cell "+10,000.00":
+        - strong: +10,000.00
+      - cell "Click to Clear"
+    - 'row "06/17/25 Account Adjustment Deleted Savings21 [Available] • DELETED: Savings21 10,000.00 Click to Clear"':
+      - cell "06/17/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted Savings21 [Available] • DELETED: Savings21"':
+        - strong: Deleted Savings21
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings21"
+      - cell "10,000.00":
+        - strong: 10,000.00
+      - cell "Click to Clear"
+    - 'row "06/17/25 Account Adjustment Set car loan Balance DELETED: car loan20 1,000.00 Click to Clear"':
+      - cell "06/17/25"
+      - cell "Account Adjustment"
+      - 'cell "Set car loan Balance DELETED: car loan20"':
+        - strong: Set car loan Balance
+        - deletion: "DELETED: car loan20"
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - 'row "06/17/25 Credit Test grocery expense Grocery • DELETED: Savings21 • #465 +50.00 Click to Clear"':
+      - cell "06/17/25"
+      - cell "Credit"
+      - 'cell "Test grocery expense Grocery • DELETED: Savings21 • #465"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - deletion: "DELETED: Savings21"
+        - strong: •
+        - text: "#465"
+        - link:
+          - /url: "#"
+      - cell "+50.00":
+        - strong: "+50.00"
+      - cell "Click to Clear"
+    - 'row "06/17/25 Credit Test grocery expense Grocery • DELETED: Savings20 • #465 +50.00 Click to Clear"':
+      - cell "06/17/25"
+      - cell "Credit"
+      - 'cell "Test grocery expense Grocery • DELETED: Savings20 • #465"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - deletion: "DELETED: Savings20"
+        - strong: •
+        - text: "#465"
+        - link:
+          - /url: "#"
+      - cell "+50.00":
+        - strong: "+50.00"
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings21 +9,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings21"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings21"
+      - cell "+9,000.00":
+        - strong: +9,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings21 +1,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings21"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings21"
+      - cell "+1,000.00":
+        - strong: +1,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings21 10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings21"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings21"
+      - cell "10,000.00":
+        - strong: 10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Deleted My Account1 [Available] • DELETED: My Account1 50.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted My Account1 [Available] • DELETED: My Account1"':
+        - strong: Deleted My Account1
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: My Account1"
+      - cell "50.00":
+        - strong: "50.00"
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Set Savings Balance [Available] • DELETED: Savings21 +10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Set Savings Balance [Available] • DELETED: Savings21"':
+        - strong: Set Savings Balance
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings21"
+      - cell "+10,000.00":
+        - strong: +10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Deleted Savings20 [Available] • DELETED: Savings20 10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted Savings20 [Available] • DELETED: Savings20"':
+        - strong: Deleted Savings20
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings20"
+      - cell "10,000.00":
+        - strong: 10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Set car loan Balance DELETED: car loan19 1,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Set car loan Balance DELETED: car loan19"':
+        - strong: Set car loan Balance
+        - deletion: "DELETED: car loan19"
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings20 +9,950.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings20"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings20"
+      - cell "+9,950.00":
+        - strong: +9,950.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Deleted Savings19 [Available] • DELETED: Savings19 10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted Savings19 [Available] • DELETED: Savings19"':
+        - strong: Deleted Savings19
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings19"
+      - cell "10,000.00":
+        - strong: 10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Set car loan Balance DELETED: car loan18 1,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Set car loan Balance DELETED: car loan18"':
+        - strong: Set car loan Balance
+        - deletion: "DELETED: car loan18"
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings19 +10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings19"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings19"
+      - cell "+10,000.00":
+        - strong: +10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Deleted Savings18 [Available] • DELETED: Savings18 10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted Savings18 [Available] • DELETED: Savings18"':
+        - strong: Deleted Savings18
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings18"
+      - cell "10,000.00":
+        - strong: 10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Set car loan Balance DELETED: car loan17 1,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Set car loan Balance DELETED: car loan17"':
+        - strong: Set car loan Balance
+        - deletion: "DELETED: car loan17"
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings18 +10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings18"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings18"
+      - cell "+10,000.00":
+        - strong: +10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Deleted Savings17 [Available] • DELETED: Savings17 10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted Savings17 [Available] • DELETED: Savings17"':
+        - strong: Deleted Savings17
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings17"
+      - cell "10,000.00":
+        - strong: 10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Set car loan Balance DELETED: car loan16 1,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Set car loan Balance DELETED: car loan16"':
+        - strong: Set car loan Balance
+        - deletion: "DELETED: car loan16"
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings17 +9,850.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings17"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings17"
+      - cell "+9,850.00":
+        - strong: +9,850.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Deleted Savings16 [Available] • DELETED: Savings16 10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted Savings16 [Available] • DELETED: Savings16"':
+        - strong: Deleted Savings16
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings16"
+      - cell "10,000.00":
+        - strong: 10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Set car loan Balance DELETED: car loan15 1,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Set car loan Balance DELETED: car loan15"':
+        - strong: Set car loan Balance
+        - deletion: "DELETED: car loan15"
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings16 +9,950.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings16"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings16"
+      - cell "+9,950.00":
+        - strong: +9,950.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Deleted Savings15 [Available] • DELETED: Savings15 10,100.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted Savings15 [Available] • DELETED: Savings15"':
+        - strong: Deleted Savings15
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings15"
+      - cell "10,100.00":
+        - strong: 10,100.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Set car loan Balance DELETED: car loan14 1,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Set car loan Balance DELETED: car loan14"':
+        - strong: Set car loan Balance
+        - deletion: "DELETED: car loan14"
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings15 +9,900.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings15"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings15"
+      - cell "+9,900.00":
+        - strong: +9,900.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Deleted Savings14 [Available] • DELETED: Savings14 10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted Savings14 [Available] • DELETED: Savings14"':
+        - strong: Deleted Savings14
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings14"
+      - cell "10,000.00":
+        - strong: 10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Set car loan Balance DELETED: car loan13 1,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Set car loan Balance DELETED: car loan13"':
+        - strong: Set car loan Balance
+        - deletion: "DELETED: car loan13"
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings14 +10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings14"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings14"
+      - cell "+10,000.00":
+        - strong: +10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings11 +10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings11"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings11"
+      - cell "+10,000.00":
+        - strong: +10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Deleted Savings10 [Available] • DELETED: Savings10 10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted Savings10 [Available] • DELETED: Savings10"':
+        - strong: Deleted Savings10
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings10"
+      - cell "10,000.00":
+        - strong: 10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Set car loan Balance DELETED: car loan9 1,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Set car loan Balance DELETED: car loan9"':
+        - strong: Set car loan Balance
+        - deletion: "DELETED: car loan9"
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings10 +10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings10"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings10"
+      - cell "+10,000.00":
+        - strong: +10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Deleted Savings9 [Available] • DELETED: Savings9 10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted Savings9 [Available] • DELETED: Savings9"':
+        - strong: Deleted Savings9
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings9"
+      - cell "10,000.00":
+        - strong: 10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Set car loan Balance DELETED: car loan8 1,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Set car loan Balance DELETED: car loan8"':
+        - strong: Set car loan Balance
+        - deletion: "DELETED: car loan8"
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings9 +10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings9"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings9"
+      - cell "+10,000.00":
+        - strong: +10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Deleted Savings8 [Available] • DELETED: Savings8 10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted Savings8 [Available] • DELETED: Savings8"':
+        - strong: Deleted Savings8
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings8"
+      - cell "10,000.00":
+        - strong: 10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Set car loan Balance DELETED: car loan7 1,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Set car loan Balance DELETED: car loan7"':
+        - strong: Set car loan Balance
+        - deletion: "DELETED: car loan7"
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings8 +10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings8"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings8"
+      - cell "+10,000.00":
+        - strong: +10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Deleted Savings7 [Available] • DELETED: Savings7 10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted Savings7 [Available] • DELETED: Savings7"':
+        - strong: Deleted Savings7
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings7"
+      - cell "10,000.00":
+        - strong: 10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Set car loan Balance DELETED: car loan6 1,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Set car loan Balance DELETED: car loan6"':
+        - strong: Set car loan Balance
+        - deletion: "DELETED: car loan6"
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings7 +10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings7"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings7"
+      - cell "+10,000.00":
+        - strong: +10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Deleted Savings6 [Available] • DELETED: Savings6 10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Deleted Savings6 [Available] • DELETED: Savings6"':
+        - strong: Deleted Savings6
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings6"
+      - cell "10,000.00":
+        - strong: 10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Set car loan Balance DELETED: car loan5 1,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Set car loan Balance DELETED: car loan5"':
+        - strong: Set car loan Balance
+        - deletion: "DELETED: car loan5"
+      - cell "1,000.00":
+        - strong: 1,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Account Adjustment Updated Savings [Available] • DELETED: Savings6 +10,000.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Account Adjustment"
+      - 'cell "Updated Savings [Available] • DELETED: Savings6"':
+        - strong: Updated Savings
+        - text: "[Available]"
+        - strong: •
+        - deletion: "DELETED: Savings6"
+      - cell "+10,000.00":
+        - strong: +10,000.00
+      - cell "Click to Clear"
+    - 'row "06/16/25 Credit Test grocery expense Grocery • DELETED: Savings17 • #465 +50.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Credit"
+      - 'cell "Test grocery expense Grocery • DELETED: Savings17 • #465"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - deletion: "DELETED: Savings17"
+        - strong: •
+        - text: "#465"
+        - link:
+          - /url: "#"
+      - cell "+50.00":
+        - strong: "+50.00"
+      - cell "Click to Clear"
+    - 'row "06/16/25 Credit Test grocery expense Grocery • DELETED: Savings17 • #465 +50.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Credit"
+      - 'cell "Test grocery expense Grocery • DELETED: Savings17 • #465"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - deletion: "DELETED: Savings17"
+        - strong: •
+        - text: "#465"
+        - link:
+          - /url: "#"
+      - cell "+50.00":
+        - strong: "+50.00"
+      - cell "Click to Clear"
+    - 'row "06/16/25 Credit Test grocery expense Grocery • DELETED: Savings17 • #465 +50.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Credit"
+      - 'cell "Test grocery expense Grocery • DELETED: Savings17 • #465"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - deletion: "DELETED: Savings17"
+        - strong: •
+        - text: "#465"
+        - link:
+          - /url: "#"
+      - cell "+50.00":
+        - strong: "+50.00"
+      - cell "Click to Clear"
+    - 'row "06/16/25 Credit Test grocery expense Grocery • DELETED: Savings16 • #465 +50.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Credit"
+      - 'cell "Test grocery expense Grocery • DELETED: Savings16 • #465"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - deletion: "DELETED: Savings16"
+        - strong: •
+        - text: "#465"
+        - link:
+          - /url: "#"
+      - cell "+50.00":
+        - strong: "+50.00"
+      - cell "Click to Clear"
+    - 'row "06/16/25 Credit Test grocery expense Grocery • DELETED: Savings15 • #465 +50.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Credit"
+      - 'cell "Test grocery expense Grocery • DELETED: Savings15 • #465"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - deletion: "DELETED: Savings15"
+        - strong: •
+        - text: "#465"
+        - link:
+          - /url: "#"
+      - cell "+50.00":
+        - strong: "+50.00"
+      - cell "Click to Clear"
+    - 'row "06/16/25 Credit Test grocery expense Grocery • DELETED: Savings15 • #465 +50.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Credit"
+      - 'cell "Test grocery expense Grocery • DELETED: Savings15 • #465"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - deletion: "DELETED: Savings15"
+        - strong: •
+        - text: "#465"
+        - link:
+          - /url: "#"
+      - cell "+50.00":
+        - strong: "+50.00"
+      - cell "Click to Clear"
+    - 'row "06/16/25 Credit Test grocery expense Grocery • DELETED: Savings15 • #465 +50.00 Click to Clear"':
+      - cell "06/16/25"
+      - cell "Credit"
+      - 'cell "Test grocery expense Grocery • DELETED: Savings15 • #465"':
+        - strong: Test grocery expense
+        - text: Grocery
+        - strong: •
+        - deletion: "DELETED: Savings15"
+        - strong: •
+        - text: "#465"
+        - link:
+          - /url: "#"
+      - cell "+50.00":
+        - strong: "+50.00"
+      - cell "Click to Clear"
+- complementary
+- contentinfo:
+  - text: © 2009-25
+  - link "Dayspring Partners":
+    - /url: http://www.dayspringpartners.com/
+  - text: "|"
+  - link "Terms":
+    - /url: https://goodbudget.com/terms-of-use/?utm_source=webappfooter&utm_medium=symfony&utm_campaign=terms-of-use/
+  - text: "|"
+  - link "Privacy":
+    - /url: https://goodbudget.com/privacy-policy/?utm_source=webappfooter&utm_medium=symfony&utm_campaign=privacy-policy/
+  - text: "|"
+  - link "Subscriptions & Refunds":
+    - /url: https://goodbudget.com/refunds-cancellations-subscriptions/?utm_source=webappfooter&utm_medium=symfony&utm_campaign=cancellations-refunds/
+  - text: .
+- dialog:
+  - heading "New Envelopes Created!" [level=1]
+  - paragraph: Do you want to fill the envelope(s) you just created?
+  - text: "Debt Payment: car loan (100.00)"
+  - button "Yes, take me to Fill my Envelopes"
+  - button "No thanks"
+```
